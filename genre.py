@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Chargement des données
-link = '/Users/rizkabouelella/Desktop/P2/Base_prete.csv'
+link = '/Users/stanl/Desktop/test_streamlit/Base_prete.csv'
 df = pd.read_csv(link)
 
 # Fonction pour obtenir l'URL complète de l'affiche
